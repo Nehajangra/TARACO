@@ -145,7 +145,7 @@ padding-right: 10px; /* Add padding for mobile */
     text-decoration: none;
     border-radius: 5px;
 }
-@media screen and (max-width: 600px) and (min-width: 768px) {
+@media (max-width: 600px)  {
   .header{
     background-color: red;
     margin-bottom: 50px;
