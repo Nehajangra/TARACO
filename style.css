@@ -97,7 +97,7 @@ body {
 }
 
 .mobile-nav-list {
-    list-style: none;~
+    list-style: none;
     padding: 0;
     margin: 0;
     position: absolute;
@@ -169,6 +169,38 @@ body {
 .blue-text {
     color: #007bff;
     /* Make it a block-level element to force a new line */
+}
+/* .hero-text .yellow-text{
+    color: gold;
+    font-family: "Zen Tokyo Zoo", system-ui;
+    font-weight: 800;
+    font-style: bold; */
+    /* font-family: "Luckiest Guy", cursive;
+    font-weight: 800;
+    font-style: bold; */
+/* } */
+.hero-text .yellow-text {
+    font-family: sans-serif; /* Choose your preferred font */
+    font-size: 3em; /* Adjust the size as needed */
+    color: gold;
+    text-align: start; /* Center the heading */
+    padding: 5px; /* Add some padding around the text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+    animation: pulseGold 2s infinite alternate; /* Apply the pulse animation */
+  }
+
+  @keyframes pulseGold {
+    0% {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      transform: scale(1);
+    }
+    100% {
+      text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5), 0 0 10px gold; /* Stronger shadow and glow */
+      transform: scale(1.05);
+    }
+  }
+.hero-text .business{
+    margin-top: -20px;
 }
 
 .hero-text p {
